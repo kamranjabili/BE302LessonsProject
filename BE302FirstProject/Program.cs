@@ -947,22 +947,22 @@ Area area = new();
 //    Console.WriteLine(item);
 //}
 
-//List<string> sList = new();
-//sList.Add("Nesib");
-//sList.Add("Aysun");
-//sList.Add("Riad");
+List<string> sList = new();
+sList.Add("Nesib");
+sList.Add("Aysun");
+sList.Add("Riad");
 
-//Console.WriteLine(sList.Contains("Aysun"));
-//sList.Append("Mustafa");
-//sList.Add("Nesib");
-//sList.Add("Aysun");
-//sList.Add("Riad");
-//Console.WriteLine(sList.All(s => s.StartsWith('A')));
-//Console.WriteLine(sList.Count);
-//Console.WriteLine(sList.Capacity);
+Console.WriteLine(sList.Contains("Aysun"));
+sList.Append("Mustafa");
+sList.Add("Nesib");
+sList.Add("Aysun");
+sList.Add("Riad");
+Console.WriteLine(sList.All(s => s.StartsWith('A')));
+Console.WriteLine(sList.Count);
+Console.WriteLine(sList.Capacity);
 
-//foreach (string s in sList)
-//{
-//    Console.WriteLine(s);
-//}
+foreach (string s in sList)
+{
+    Console.WriteLine(s);
+}
 #endregion
